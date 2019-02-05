@@ -14,8 +14,7 @@
 
 </head>
 <body>
-	<!--Start Container-->
-	<div id="container">
+	<div id="container"><!--Start Container-->
 		<header><!--Start header-->
 			<div id="logo">
 				<h1><a href="">Museu Nacional</a></h1>
@@ -32,8 +31,48 @@
 				</ul>
 			</nav><!--End nave-->
 		</header><!--End header-->
+		<div id="principal"><!--Start Principal-->
+			<div id="conteudo"><!--Start Conteudo-->
+				<section id="capa">
+					<img src="img/museu.png">
+				</section>
+			</div><!--End Conteudo-->
+			<aside><!--Start Aside-->
+				<section id="depoimento">
+					<img src="img/depoimento.png">
+				</section>
+				<section id="visita"><!--start section visita-->
+					<h4>Faça ma visita</h4>
+					<form>
+						<fieldset>
+							<legend>Selecione uma data</legend>
+							<label  for="data">Data</label>
+							<input  class="campo"type="text" id='data' value="dd/mm/aaaa">
 
-	</div>
-	<!--End Container-->
+							<label for="qtd">Qtd Pessoas</label>
+							<input class="campo" style="width: 30px;" type="text" id='qdt' value="1">
+						</fieldset>
+						<input class="botao" type="submit" value="Verificar Disponibilidade">
+					</form>
+				</section><!-- End section visita-->
+				<section id='galeria'> <!-- start section galeria-->
+					<h4>Galeria de Fotos</h4>
+					<a href="">
+						<img src="img/imagem1.jpg" height="93" width="93">
+					</a>
+					<a href="">
+						<img src="img/imagem2.jpg" height="93" width="93">
+					</a>
+					<a href="">
+						<img src="img/imagem3.jpg" height="93" width="93">
+					</a>
+					<a href="">
+						<img src="img/imagem4.jpg" height="93" width="93">
+					</a>
+				</section><!-- End section galeria-->
+			</aside><!--End Aside-->			
+		</div><!--End Principal-->
+	</div><!--End Container-->
+	
 </body>
 </html>
